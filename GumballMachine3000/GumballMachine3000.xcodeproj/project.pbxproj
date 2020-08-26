@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D509B62F24F67F78003D5DCB /* GumballModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D509B62E24F67F78003D5DCB /* GumballModelTests.swift */; };
+		D57FA8E124EFFFFF00B85AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA8E024EFFFFF00B85AF9 /* AppDelegate.swift */; };
+		D57FA8E324EFFFFF00B85AF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA8E224EFFFFF00B85AF9 /* SceneDelegate.swift */; };
+		D57FA8E524EFFFFF00B85AF9 /* GumballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA8E424EFFFFF00B85AF9 /* GumballViewController.swift */; };
+		D57FA8E824EFFFFF00B85AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57FA8E624EFFFFF00B85AF9 /* Main.storyboard */; };
+		D57FA8EA24F0000100B85AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57FA8E924F0000100B85AF9 /* Assets.xcassets */; };
+		D57FA8ED24F0000100B85AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57FA8EB24F0000100B85AF9 /* LaunchScreen.storyboard */; };
+		D57FA90324F0007500B85AF9 /* GumballView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D57FA90224F0007500B85AF9 /* GumballView.xib */; };
+		D57FA90724F0177700B85AF9 /* GumballModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90624F0177700B85AF9 /* GumballModelProtocol.swift */; };
+		D57FA90824F0177700B85AF9 /* GumballModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90624F0177700B85AF9 /* GumballModelProtocol.swift */; };
+		D57FA90A24F017CB00B85AF9 /* GumballViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90924F017CB00B85AF9 /* GumballViewProtocol.swift */; };
+		D57FA90B24F017CB00B85AF9 /* GumballViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90924F017CB00B85AF9 /* GumballViewProtocol.swift */; };
+		D57FA90D24F0184A00B85AF9 /* GumballViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90C24F0184A00B85AF9 /* GumballViewControllerProtocol.swift */; };
+		D57FA90E24F0184A00B85AF9 /* GumballViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90C24F0184A00B85AF9 /* GumballViewControllerProtocol.swift */; };
+		D57FA91024F01C0200B85AF9 /* GumballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90F24F01C0200B85AF9 /* GumballView.swift */; };
+		D57FA91124F01C0200B85AF9 /* GumballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA90F24F01C0200B85AF9 /* GumballView.swift */; };
+		D5F331FB24F45AA700350330 /* GumballModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F331FA24F45AA700350330 /* GumballModel.swift */; };
+		D5F331FC24F45AA700350330 /* GumballModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F331FA24F45AA700350330 /* GumballModel.swift */; };
+		D5F331FE24F4650B00350330 /* GumballViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F331FD24F4650B00350330 /* GumballViewControllerTests.swift */; };
+		D5F331FF24F4655200350330 /* GumballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57FA8E424EFFFFF00B85AF9 /* GumballViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57FA8F424F0000100B85AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57FA8D524EFFFFE00B85AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57FA8DC24EFFFFE00B85AF9;
+			remoteInfo = GumballMachine3000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D509B62E24F67F78003D5DCB /* GumballModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballModelTests.swift; sourceTree = "<group>"; };
+		D57FA8DD24EFFFFE00B85AF9 /* GumballMachine3000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GumballMachine3000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57FA8E024EFFFFF00B85AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D57FA8E224EFFFFF00B85AF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D57FA8E424EFFFFF00B85AF9 /* GumballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballViewController.swift; sourceTree = "<group>"; };
+		D57FA8E724EFFFFF00B85AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D57FA8E924F0000100B85AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57FA8EC24F0000100B85AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D57FA8EE24F0000100B85AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57FA8F324F0000100B85AF9 /* GumballMachine3000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumballMachine3000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57FA8F924F0000100B85AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D57FA90224F0007500B85AF9 /* GumballView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GumballView.xib; sourceTree = "<group>"; };
+		D57FA90624F0177700B85AF9 /* GumballModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballModelProtocol.swift; sourceTree = "<group>"; };
+		D57FA90924F017CB00B85AF9 /* GumballViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballViewProtocol.swift; sourceTree = "<group>"; };
+		D57FA90C24F0184A00B85AF9 /* GumballViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballViewControllerProtocol.swift; sourceTree = "<group>"; };
+		D57FA90F24F01C0200B85AF9 /* GumballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballView.swift; sourceTree = "<group>"; };
+		D5F331FA24F45AA700350330 /* GumballModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballModel.swift; sourceTree = "<group>"; };
+		D5F331FD24F4650B00350330 /* GumballViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumballViewControllerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57FA8DA24EFFFFE00B85AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57FA8F024F0000100B85AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57FA8D424EFFFFE00B85AF9 = {
+			isa = PBXGroup;
+			children = (
+				D57FA8DF24EFFFFE00B85AF9 /* GumballMachine3000 */,
+				D57FA8F624F0000100B85AF9 /* GumballMachine3000Tests */,
+				D57FA8DE24EFFFFE00B85AF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57FA8DE24EFFFFE00B85AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57FA8DD24EFFFFE00B85AF9 /* GumballMachine3000.app */,
+				D57FA8F324F0000100B85AF9 /* GumballMachine3000Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57FA8DF24EFFFFE00B85AF9 /* GumballMachine3000 */ = {
+			isa = PBXGroup;
+			children = (
+				D57FA8E024EFFFFF00B85AF9 /* AppDelegate.swift */,
+				D57FA8E224EFFFFF00B85AF9 /* SceneDelegate.swift */,
+				D57FA8E424EFFFFF00B85AF9 /* GumballViewController.swift */,
+				D57FA8E624EFFFFF00B85AF9 /* Main.storyboard */,
+				D57FA8E924F0000100B85AF9 /* Assets.xcassets */,
+				D57FA8EB24F0000100B85AF9 /* LaunchScreen.storyboard */,
+				D57FA8EE24F0000100B85AF9 /* Info.plist */,
+				D57FA90224F0007500B85AF9 /* GumballView.xib */,
+				D57FA90F24F01C0200B85AF9 /* GumballView.swift */,
+				D57FA90924F017CB00B85AF9 /* GumballViewProtocol.swift */,
+				D57FA90624F0177700B85AF9 /* GumballModelProtocol.swift */,
+				D57FA90C24F0184A00B85AF9 /* GumballViewControllerProtocol.swift */,
+				D5F331FA24F45AA700350330 /* GumballModel.swift */,
+			);
+			path = GumballMachine3000;
+			sourceTree = "<group>";
+		};
+		D57FA8F624F0000100B85AF9 /* GumballMachine3000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D57FA8F924F0000100B85AF9 /* Info.plist */,
+				D5F331FD24F4650B00350330 /* GumballViewControllerTests.swift */,
+				D509B62E24F67F78003D5DCB /* GumballModelTests.swift */,
+			);
+			path = GumballMachine3000Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57FA8DC24EFFFFE00B85AF9 /* GumballMachine3000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57FA8FC24F0000100B85AF9 /* Build configuration list for PBXNativeTarget "GumballMachine3000" */;
+			buildPhases = (
+				D57FA8D924EFFFFE00B85AF9 /* Sources */,
+				D57FA8DA24EFFFFE00B85AF9 /* Frameworks */,
+				D57FA8DB24EFFFFE00B85AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GumballMachine3000;
+			productName = GumballMachine3000;
+			productReference = D57FA8DD24EFFFFE00B85AF9 /* GumballMachine3000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57FA8F224F0000100B85AF9 /* GumballMachine3000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57FA8FF24F0000100B85AF9 /* Build configuration list for PBXNativeTarget "GumballMachine3000Tests" */;
+			buildPhases = (
+				D57FA8EF24F0000100B85AF9 /* Sources */,
+				D57FA8F024F0000100B85AF9 /* Frameworks */,
+				D57FA8F124F0000100B85AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57FA8F524F0000100B85AF9 /* PBXTargetDependency */,
+			);
+			name = GumballMachine3000Tests;
+			productName = GumballMachine3000Tests;
+			productReference = D57FA8F324F0000100B85AF9 /* GumballMachine3000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57FA8D524EFFFFE00B85AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "João Pedro de Amorim";
+				TargetAttributes = {
+					D57FA8DC24EFFFFE00B85AF9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					D57FA8F224F0000100B85AF9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = D57FA8DC24EFFFFE00B85AF9;
+					};
+				};
+			};
+			buildConfigurationList = D57FA8D824EFFFFE00B85AF9 /* Build configuration list for PBXProject "GumballMachine3000" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57FA8D424EFFFFE00B85AF9;
+			productRefGroup = D57FA8DE24EFFFFE00B85AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57FA8DC24EFFFFE00B85AF9 /* GumballMachine3000 */,
+				D57FA8F224F0000100B85AF9 /* GumballMachine3000Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57FA8DB24EFFFFE00B85AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57FA8ED24F0000100B85AF9 /* LaunchScreen.storyboard in Resources */,
+				D57FA8EA24F0000100B85AF9 /* Assets.xcassets in Resources */,
+				D57FA8E824EFFFFF00B85AF9 /* Main.storyboard in Resources */,
+				D57FA90324F0007500B85AF9 /* GumballView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57FA8F124F0000100B85AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57FA8D924EFFFFE00B85AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57FA90A24F017CB00B85AF9 /* GumballViewProtocol.swift in Sources */,
+				D57FA90724F0177700B85AF9 /* GumballModelProtocol.swift in Sources */,
+				D5F331FB24F45AA700350330 /* GumballModel.swift in Sources */,
+				D57FA8E524EFFFFF00B85AF9 /* GumballViewController.swift in Sources */,
+				D57FA90D24F0184A00B85AF9 /* GumballViewControllerProtocol.swift in Sources */,
+				D57FA8E124EFFFFF00B85AF9 /* AppDelegate.swift in Sources */,
+				D57FA8E324EFFFFF00B85AF9 /* SceneDelegate.swift in Sources */,
+				D57FA91024F01C0200B85AF9 /* GumballView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57FA8EF24F0000100B85AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57FA91124F01C0200B85AF9 /* GumballView.swift in Sources */,
+				D57FA90824F0177700B85AF9 /* GumballModelProtocol.swift in Sources */,
+				D509B62F24F67F78003D5DCB /* GumballModelTests.swift in Sources */,
+				D57FA90E24F0184A00B85AF9 /* GumballViewControllerProtocol.swift in Sources */,
+				D5F331FF24F4655200350330 /* GumballViewController.swift in Sources */,
+				D57FA90B24F017CB00B85AF9 /* GumballViewProtocol.swift in Sources */,
+				D5F331FC24F45AA700350330 /* GumballModel.swift in Sources */,
+				D5F331FE24F4650B00350330 /* GumballViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57FA8F524F0000100B85AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57FA8DC24EFFFFE00B85AF9 /* GumballMachine3000 */;
+			targetProxy = D57FA8F424F0000100B85AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57FA8E624EFFFFF00B85AF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57FA8E724EFFFFF00B85AF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D57FA8EB24F0000100B85AF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57FA8EC24F0000100B85AF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57FA8FA24F0000100B85AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57FA8FB24F0000100B85AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57FA8FD24F0000100B85AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTB2MSNYGB;
+				INFOPLIST_FILE = GumballMachine3000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tistao.GumballMachine3000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D57FA8FE24F0000100B85AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTB2MSNYGB;
+				INFOPLIST_FILE = GumballMachine3000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tistao.GumballMachine3000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D57FA90024F0000100B85AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTB2MSNYGB;
+				INFOPLIST_FILE = GumballMachine3000Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tistao.GumballMachine3000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GumballMachine3000.app/GumballMachine3000";
+			};
+			name = Debug;
+		};
+		D57FA90124F0000100B85AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTB2MSNYGB;
+				INFOPLIST_FILE = GumballMachine3000Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tistao.GumballMachine3000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GumballMachine3000.app/GumballMachine3000";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57FA8D824EFFFFE00B85AF9 /* Build configuration list for PBXProject "GumballMachine3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57FA8FA24F0000100B85AF9 /* Debug */,
+				D57FA8FB24F0000100B85AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57FA8FC24F0000100B85AF9 /* Build configuration list for PBXNativeTarget "GumballMachine3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57FA8FD24F0000100B85AF9 /* Debug */,
+				D57FA8FE24F0000100B85AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57FA8FF24F0000100B85AF9 /* Build configuration list for PBXNativeTarget "GumballMachine3000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57FA90024F0000100B85AF9 /* Debug */,
+				D57FA90124F0000100B85AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57FA8D524EFFFFE00B85AF9 /* Project object */;
+}
